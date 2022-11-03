@@ -1,0 +1,19 @@
+{
+  "name": "websedit/oop",
+  "description": "Customer project",
+  "autoload": {
+    "psr-4": {
+      "Websedit\\": "src/",
+      "Websedit\\Classes\\": "src/classes/",
+      "Websedit\\Service\\": "src/service/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Alexander Dürnay"
+    }
+  ],
+  "require": {
+    "phpmailer/phpmailer": "^6.5"
+  }
+}

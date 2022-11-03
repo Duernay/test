@@ -1,0 +1,18 @@
+<form action="#" method="POST" class="contact-form">
+    <h>Bitte geben sie Ihre Daten an, um sich anzumelden.</h>
+    <br>
+    <hr>
+    <div>
+        <input type="text" name="vorname" id="vorname" placeholder="Vorname*" required/>
+        <input type="text" name="nachname" id="nachname" placeholder="Nachname*" required/>
+    </div>
+    <br>
+    <div>
+        <input pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" type="email" name="email" id="email" placeholder="Email*" required/><br>
+    </div>
+    <div>
+        <button type="submit" name="send-mail" class="btn primary-btn rounded-full">Absenden</button>
+        <br>
+    </div>
+    <hr>
+</form>
